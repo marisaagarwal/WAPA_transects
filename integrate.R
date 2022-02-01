@@ -15,8 +15,13 @@
 ##  Notes:         RUN THIS FILE BEFORE EVERY SESSION 
 
 
+##  1. point to working directory
 
-##  1. Set up core functionality
+setwd("research/WAPA_transects")
+
+
+
+##  2. Set up core functionality
 
     # clean up
     rm(list=ls())
@@ -55,10 +60,6 @@
     library(plotrix)
     library(multcompView)
     library(ggpubr)
-
-
-    # point to working directory
-    setwd("research/WAPA_transects")
 
     # # set font for graphical outputs
     # theme_set(theme_bw(base_family = "Helvetica"))
