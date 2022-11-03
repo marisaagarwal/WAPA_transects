@@ -61,18 +61,6 @@ setwd("research/WAPA_transects")
     library(multcompView)
     library(ggpubr)
 
-    # # set font for graphical outputs
-    # theme_set(theme_bw(base_family = "Helvetica"))
-    # CairoFonts(  # slight mod to example in ?CairoFonts page
-    # regular    = "Helvetica:style = Regular",
-    # bold       = "Helvetica:style = Bold",
-    # italic     = "Helvetica:style = Oblique",
-    # bolditalic = "Helvetica:style = BoldOblique"
-    # )
-    
-    # # call to map theme
-    # source("R/theme_nothing.R")
-
 
 ## 2. Generate core data objects
 ## if things need to be loaded in before every session, include them here
